@@ -45,8 +45,8 @@
   width: 1003px !important;
 }
 .sleep_panda {
-  left: 8%;
-  top: 15%;
+  left: 1%;
+  top: 3%;
 }
 .top-98 {
   top: 98%;
@@ -146,7 +146,7 @@
 .faq_tree {
   bottom: -23%;
   z-index: 3;
-  left: -4%;
+  left: 0;
 }
 /* .grass_img { 
 top: -15%;
@@ -199,6 +199,12 @@ top: -15%;
 }
 .min_height_110 {
   min-height: 110vh;
+}
+.mw_446 {
+  max-width: 446px !important;
+}
+.mh_497 {
+  max-height: 497px !important;
 }
 .opacity_7 {
   opacity: 0.7;
@@ -268,6 +274,9 @@ top: -15%;
 }
 .height_400 {
   height: 400px !important;
+}
+.custum_container {
+  max-width: 1140px !important;
 }
 .pb_60 {
   padding-bottom: 60px;
@@ -342,6 +351,9 @@ top: -15%;
   height: 1px;
   background-color: #b18e5e;
 }
+.pt-58 {
+  padding-top: 58px;
+}
 .img_shadow {
   box-shadow: 15.34152px 15.34152px 4.38329px 0px rgba(0, 0, 0, 0.25);
 }
@@ -396,6 +408,9 @@ top: -15%;
   .min_height_110 {
     min-height: 90vh;
   }
+  .pt_58 {
+    padding-top: 58px;
+  }
 }
 @media (min-width: 992px) {
   .mw_758 {
@@ -416,13 +431,26 @@ top: -15%;
   .height_568_lg {
     height: 568px !important;
   }
+  .min_vh_75 {
+    min-height: none !important;
+  }
+  .pt_100 {
+    padding-top: 100px;
+  }
+  .pb_100 {
+    padding-bottom: 100px;
+  }
 }
 @media (min-width: 576px) and (max-width: 1200px) {
   .white_card {
     background: #fff;
     border-radius: 20px;
     padding: 16px 16px;
-    /* position: absolute; */
+  }
+}
+@media (min-width: 1200px) {
+  .mh-100 {
+    min-height: 100vh;
   }
 }
 @media (min-width: 1290px) and (max-width: 1620px) {
@@ -439,13 +467,14 @@ top: -15%;
     bottom: 56% !important;
   }
   .sleep_panda {
-    left: 9%;
-    top: 3%;
+    left: 1%;
+    /* top: 5%; */
+    top: -7%;
   }
 }
 @media (min-width: 992px) and (max-width: 1290px) {
   .group_img {
-    bottom: 1% !important;
+    bottom: -1% !important;
   }
   .rightTree_img {
     right: -13% !important;
@@ -509,8 +538,8 @@ top: -15%;
   }
 }
 @media (min-width: 576px) {
-  .min_vh_100 {
-    min-height: 100vh;
+  .min_vh_75 {
+    min-height: 75vh;
   }
 }
 @media (max-width: 576px) {
@@ -525,9 +554,6 @@ top: -15%;
     background: #fff;
     border-radius: 20px;
     padding: 16px 16px;
-    margin-left: 24px;
-    margin-right: 24px;
-    /* position: absolute; */
   }
   .cloud_cotent {
     left: 0;
