@@ -11,9 +11,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.preloader_img {
-  background-image: url("../images/png/header-img.png");
-}
 .bg_pink {
   background-image: url("../images/png/pink_bg.png");
   background-repeat: no-repeat;
@@ -507,8 +504,8 @@ top: -15%;
   .cloud_cotent {
     left: 0;
   }
-  .mw_85 {
-    width: 85% !important;
+  .mw_68 {
+    width: 68% !important;
   }
   .h_70 {
     min-height: 70vh !important;
