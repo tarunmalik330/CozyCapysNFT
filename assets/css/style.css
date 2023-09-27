@@ -68,7 +68,7 @@
 .footer_link::after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: #0d0d0d;
   width: 0;
   height: 3px;
   left: 50%;
