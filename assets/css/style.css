@@ -11,6 +11,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.preloader_img {
+  background-image: url("../images/png/header-img.png");
+}
 .bg_pink {
   background-image: url("../images/png/pink_bg.png");
   background-repeat: no-repeat;
