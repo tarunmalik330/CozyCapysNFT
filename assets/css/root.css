@@ -120,6 +120,9 @@
 .text_pink {
   color: #eec4dc;
 }
+.bg_blue {
+  background-color: #b0e3fe;
+}
 .pink_shadow {
   text-shadow: 1px 4px 0px #f683c5;
 }

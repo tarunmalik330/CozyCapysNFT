@@ -158,7 +158,7 @@ top: -15%;
   transition: 0.3s linear;
 }
 .button:hover {
-  box-shadow: 1px 4px 0px white !important;
+  box-shadow: 1px 4px 0px rgba(255, 255, 255, 0.47) !important;
 }
 @keyframes swing {
   0% {
