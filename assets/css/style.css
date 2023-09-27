@@ -411,9 +411,9 @@ top: -15%;
     bottom: 56% !important;
   }
   .sleep_panda {
-    left: 6%;
-    top: 16%;
-  }
+    left: 9%;
+    top: 3%;
+}
 }
 @media (min-width: 992px) and (max-width: 1290px) {
   .group_img {
