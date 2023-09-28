@@ -128,8 +128,8 @@
 .mt_100 {
   margin-top: -100px;
 }
-.top-95 {
-  top: 95%;
+.top-24 {
+  top: -35%;
 }
 .pt_20 {
   padding-top: 20px;
@@ -517,6 +517,9 @@ top: -15%;
   .min_height_110 {
     min-height: 90vh;
   }
+  .top-24 {
+    top: -15%;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .rightTree_img {
@@ -540,6 +543,9 @@ top: -15%;
   }
   .min_height_110 {
     min-height: 90vh;
+  }
+  .top-24 {
+    top: -10%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
