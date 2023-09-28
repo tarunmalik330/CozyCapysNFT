@@ -46,7 +46,7 @@
 }
 .sleep_panda {
   left: 1%;
-  top: 3%;
+  top: -24%;
 }
 .top-98 {
   top: 98%;
@@ -137,8 +137,8 @@
 .bottom-9 {
   bottom: -9%;
 }
-.bottom-24 {
-  bottom: -24%;
+.bottom-12 {
+  bottom: -12%;
 }
 .bottom-24 {
   bottom: -24%;
@@ -194,14 +194,11 @@ top: -15%;
 .pointer_event_none {
   pointer-events: none;
 }
-.mt-100 {
-  margin-top: 100px;
-}
 .mw_446 {
   max-width: 446px !important;
 }
-.mh_497 {
-  max-height: 497px !important;
+.h_497 {
+  height: 497px !important;
 }
 .opacity_7 {
   opacity: 0.7;
@@ -371,6 +368,18 @@ top: -15%;
 .min_height_90 {
   min-height: 90vh;
 }
+.panda-wave {
+  left: 0;
+  right: 0;
+  bottom: -4%;
+}
+@media (min-width: 576px) {
+  .panda-wave {
+    left: 0;
+    right: 0;
+    bottom: -6%;
+  }
+}
 @media (max-width: 992px) {
   .mobile_screen {
     position: fixed;
@@ -428,6 +437,11 @@ top: -15%;
   .height_568_lg {
     height: 568px !important;
   }
+  .panda-wave {
+    left: 0;
+    right: 0;
+    bottom: -6%;
+  }
   .min_vh_75 {
     min-height: none !important;
   }
@@ -443,6 +457,9 @@ top: -15%;
   .mw-707 {
     max-width: 707px;
   }
+  .h_800{
+  height: 800px;
+}
 }
 @media (min-width: 576px) and (max-width: 1200px) {
   .white_card {
@@ -454,6 +471,10 @@ top: -15%;
 }
 @media (min-width: 1200px) {
   .mh-100 {
+    min-height: 100vh;
+  }
+
+  .min_vh_xl_100 {
     min-height: 100vh;
   }
 }
@@ -473,7 +494,7 @@ top: -15%;
   .sleep_panda {
     left: 1%;
     /* top: 5%; */
-    top: -7%;
+    top: -25%;
   }
 }
 @media (min-width: 992px) and (max-width: 1290px) {
@@ -490,10 +511,10 @@ top: -15%;
   .bottom_61 {
     bottom: 44%;
   }
-  .sleep_panda {
+  /* .sleep_panda {
     left: 7%;
     top: 3%;
-  }
+  } */
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .grass_img {
@@ -510,10 +531,10 @@ top: -15%;
     right: -16% !important;
     bottom: 7%;
   }
-  .sleep_panda {
+  /* .sleep_panda {
     left: -7%;
     top: 5%;
-  }
+  } */
   .min_height_110 {
     min-height: 90vh;
   }
@@ -552,11 +573,23 @@ top: -15%;
   .cloud_cotent {
     left: 15%;
   }
+  .min_vh_60{
+    min-height: 60vh !important;
+  }
 }
 @media (min-width: 1200px) {
   .min_height_110 {
     min-height: 110vh;
   }
+
+  .panda-wave {
+    left: 0;
+    right: 0;
+    bottom: -6%;
+  }
+  /* .mt-100 {
+    margin-top: 0 !important;
+  } */
 }
 @media (min-width: 576px) {
   .min_vh_75 {
@@ -588,5 +621,9 @@ top: -15%;
   }
   .min_height_110 {
     min-height: 85vh;
+  }
+  .py-60 {
+    padding-bottom: 60px;
+    padding-top: 60px;
   }
 }
