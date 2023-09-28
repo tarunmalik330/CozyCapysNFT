@@ -17,7 +17,6 @@
   background-size: cover;
   object-fit: cover;
   background-position: 100% 100%;
-  /* position: absolute; */
 }
 .bg_blue {
   background-image: url("../images/png/bg_blue.png");
@@ -101,7 +100,6 @@
   transform: translateX(-11%);
 }
 .group_img {
-  /* bottom: 2% !important; */
   bottom: 1% !important;
 }
 .leftTree_img {
@@ -126,9 +124,6 @@
   right: -1%;
   left: -1%;
 }
-/* .mt_100 {
-  margin-top: -100px;
-} */
 .top-24 {
   top: -35%;
 }
@@ -152,11 +147,6 @@
   z-index: 3;
   left: 0;
 }
-/* .grass_img { 
-top: -15%;
-  right: -1%;
-  left: -1%;
-} */
 .z_index_4 {
   z-index: 4 !important;
 }
@@ -177,7 +167,6 @@ top: -15%;
   border: 1px solid #4cbaff;
 }
 .button:hover {
-  /* box-shadow: 1px 4px 0px rgba(255, 255, 255, 0.47) !important; */
   background: white;
   border: 1px solid #4cbaff;
   color: #4cbaff !important;
