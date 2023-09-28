@@ -507,7 +507,7 @@ top: -15%;
 }
 @media (min-width: 992px) and (max-width: 1290px) {
   .leftTree_img {
-    bottom: -1% !important;
+    bottom: -2% !important;
   }
   .bottom_61 {
     bottom: 44%;
@@ -567,7 +567,7 @@ top: -15%;
     bottom: 2% !important;
   }
   .leftTree_img {
-    bottom: -1%;
+    bottom: 3%;
   }
   .rightTree_img {
     right: 0;
