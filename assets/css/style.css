@@ -627,3 +627,8 @@ top: -15%;
     padding-top: 60px;
   }
 }
+@media (min-width:1500px) {
+   .mt_100{
+    margin-top: 100px !important;
+   }
+}
